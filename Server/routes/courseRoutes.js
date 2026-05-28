@@ -8,7 +8,7 @@ import {
 } from "../controllers/courseController.js";
 import { protect, authorizeRoles } from "../middleware/auth.js";
 
- const courseRoutes = Router();
+ const courseRoutes = express.Router();
 
 courseRoutes
   .route("/")
