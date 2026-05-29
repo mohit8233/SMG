@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://smg-lqmc.onrender.com/api" || "https://smg-lqmc.onrender.com/api",
+  baseURL: "https://smg-lqmc.onrender.com/api" || "http://localhost:8000/api",
 });
 
 api.interceptors.request.use((config) => {
